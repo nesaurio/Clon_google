@@ -32,3 +32,17 @@ nav .nav_right_secction a{
     margin-right: 10px;
     color: #000000;
 }
+
+nav .nav_right_secction .menu_icon{
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+
+nav .nav_right_secction img{
+    border-radius: 50%;
+    margin-left: 10px;
+}
