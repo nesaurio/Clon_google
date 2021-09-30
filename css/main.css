@@ -46,3 +46,18 @@ nav .nav_right_secction img{
     border-radius: 50%;
     margin-left: 10px;
 }
+
+main{
+    margin-top: 150px;
+    text-align: center;
+}
+
+main .main_logo{
+    margin: 0 auto;
+    margin-bottom: 15px;    
+}
+
+main .main_logo img{    
+    height: 92px;
+    width: 272px;
+}
