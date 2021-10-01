@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    font-size: 13px;
+    font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -128,4 +128,50 @@ main .main_buttons button:hover{
     border: 1px solid #c6c6c6;
     box-shadow: 0 1px 1px #000001;
     color: #222;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    display: inline-block;
+    font-size: 10.5px;
+}
+
+footer div{
+    margin: 5px;
+}
+
+footer .section_up{
+    width: 100%;
+}
+
+footer .section_up p{
+    padding-left: 15px;
+    color: #7a7a7a;
+}
+
+footer .section_down{
+    padding: 3px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+footer section ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+footer section ul a{
+    padding: 10px;
+}
+
+footer .footer_der{
+    justify-content: flex-end;
 }
